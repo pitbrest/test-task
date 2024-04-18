@@ -127,6 +127,18 @@ img {
 .for-header__text {
   margin-bottom: 64px;
 }
+.for-content__navigation {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 16px;
+}
 .for button {
-  padding: 16px 32px;
+  padding: 14px 32px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: -0.03em;
+  text-align: center;
+  color: #fff;
 }
