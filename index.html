@@ -23,6 +23,20 @@
       rel="stylesheet"
       href="index.css"
     />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+
     <title>test-task</title>
   </head>
   <body>
@@ -31,28 +45,31 @@
         <h1 class="travel-title">Travel and Hospitality</h1>
         <p class="travel-description">
           Offline & Online Translation: image translation, translation history, file translation,
-          bookmarks, dictionary meaning.
+          <br />bookmarks, dictionary meaning.
         </p>
-        <button class="travel-btn">Request a free trial</button>
+        <button class="travel-btn btn">Request a free trial</button>
       </div>
       <div class="main-languages languages">
-        <h2 class="languages-title">Our language solution</h2>
-        <p class="languages-description">
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-          been the industry's standard dummy text ever since
-        </p>
+        <div class="languages-header">
+          <h2 class="languages-title">Our language solution</h2>
+          <p class="languages-description">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem <br />
+            Ipsum has been the industry's standard dummy text ever since
+          </p>
+        </div>
         <div class="languages-cards">
           <div class="languages-card card">
             <h3 class="languages-card__title">Translation</h3>
-            <p class="languages-content">
+            <p class="languages-card__text">
               Unlimited and secure translation for fixed price. Translate billions of characters per
               day
             </p>
-            <img
-              class="languages-img"
-              src="./assets/images/language/img-1.png"
-              alt="alt-img"
-            />
+            <div class="languages-card__img card-img__1">
+              <img
+                src="./assets/images/language/img-1.png"
+                alt="alt_img"
+              />
+            </div>
           </div>
           <div class="languages-card card">
             <h3 class="languages-card__title">Social listening</h3>
@@ -60,11 +77,12 @@
               Unlimited and secure translation for fixed price. Translate billions of characters per
               day
             </p>
-            <img
-              class="languages-img"
-              src="./assets/images/language/img-2.png"
-              alt="alt-img"
-            />
+            <div class="languages-card__img card-img__2">
+              <img
+                src="./assets/images/language/img-2.png"
+                alt="alt_img"
+              />
+            </div>
           </div>
           <div class="languages-card card">
             <h3 class="languages-card__title">Content generation</h3>
@@ -72,120 +90,167 @@
               Unlimited and secure translation for fixed price. Translate billions of characters per
               day
             </p>
-            <img
-              class="languages-img"
-              src="./assets/images/language/img-3.png"
-              alt="alt-img"
-            />
+            <div class="languages-card__img card-img__3">
+              <img
+                src="./assets/images/language/img-3.png"
+                alt="alt_img"
+              />
+            </div>
           </div>
         </div>
       </div>
     </section>
     <section class="for">
       <div class="for-header">
-        <h2 class="for-header--title">Who is this product for?</h2>
-        <p class="for-header--text">
-          Lingvanex Bot can simply solve a language barrier problem in your team, community, with
-          your international clients and outsourcing partners. It automatically identifies the
-          languages in a conversation and translates all messages of your team members into a chosen
-          language.
+        <h2 class="for-header__title">Who is this product for?</h2>
+        <p class="for-header__text">
+          Lingvanex Bot can simply solve a language barrier problem in your team, community,<br />
+          with your international clients and outsourcing partners. It automatically identifies the
+          languages<br />
+          in a conversation and translates all messages of your team members into a chosen language.
         </p>
       </div>
       <div class="for-content">
-        <div class="for-content--navigation">
+        <div class="for-content__navigation">
           <button class="for-button button-active">For travelers</button>
           <button class="for-button">For travel organization</button>
           <button class="for-button">For employees</button>
         </div>
-        <div class="for-content--cards">
+        <div class="for-content__cards">
           <div class="for-card">
-            <div class="for-card--content">
-              <h2 class="for-card--title">For travelers</h2>
-              <ul class="for-card--list card-list">
-                <li class="card-list--item">Highlight one word in the text on the page.</li>
-                <li class="card-list--item">
+            <div class="for-card__content">
+              <h2 class="for-card__title">For travelers</h2>
+              <ul class="for-card__list card-list">
+                <li class="card-list__item">Highlight one word in the text on the page.</li>
+                <li class="card-list__item">
                   Word meaning, pronunciation, synonyms, hypernyms, hyponyms . and more.
                 </li>
-                <li class="card-list--item">Highlight one word in the text on the page.</li>
-                <li class="card-list--item">
+                <li class="card-list__item">Highlight one word in the text on the page.</li>
+                <li class="card-list__item">
                   Word meaning, pronunciation, synonyms, hypernyms, hyponyms . and more.
                 </li>
               </ul>
             </div>
-            <img class="for-card--img" src="./assets/images/for/img-1.png" alt="for-travelers"></img>
+            <img
+              class="for-card__img"
+              src="./assets/images/for/img-1.png"
+              alt="alt_img"
+            />
           </div>
           <div class="for-card">
-            <div class="for-card--content">
-              <h2 class="for-card--title">For travel organization</h2>
-              <ul class="for-card--list card-list">
-                <li class="card-list--item">Highlight one word in the text on the page.</li>
-                <li class="card-list--item">
-                 Word meaning, pronunciation, synonyms, hypernyms, hyponyms  . and more.
+            <div class="for-card__content">
+              <h2 class="for-card__title">For travel organization</h2>
+              <ul class="for-card__list card-list">
+                <li class="card-list__item">Highlight one word in the text on the page.</li>
+                <li class="card-list__item">
+                  Word meaning, pronunciation, synonyms, hypernyms, hyponyms . and more.
                 </li>
-                <li class="card-list--item">Highlight one word in the text on the page.</li>
-                <li class="card-list--item">
-                 Word meaning, pronunciation, synonyms,           hypernyms, hyponyms  . and more.
+                <li class="card-list__item">Highlight one word in the text on the page.</li>
+                <li class="card-list__item">
+                  Word meaning, pronunciation, synonyms, hypernyms, hyponyms . and more.
                 </li>
               </ul>
             </div>
-            <img class="for-card--img" src="./assets/images/for/img-2.png" alt="for-organization"></img>
+            <img
+              class="for-card__img"
+              src="./assets/images/for/img-2.png"
+              alt="alt_img"
+            />
           </div>
           <div class="for-card">
-            <div class="for-card--content">
-              <h2 class="for-card--title">For employees</h2>
-              <ul class="for-card--list card-list">
-                <li class="card-list--item">Highlight one word in the text on the page.</li>
-                <li class="card-list--item">
-                Word meaning, pronunciation, synonyms,           hypernyms, hyponyms  . and more.
+            <div class="for-card__content">
+              <h2 class="for-card__title">For employees</h2>
+              <ul class="for-card__list card-list">
+                <li class="card-list__item">Highlight one word in the text on the page.</li>
+                <li class="card-list__item">
+                  Word meaning, pronunciation, synonyms, hypernyms, hyponyms . and more.
                 </li>
-                <li class="card-list--item">Highlight one word in the text on the page. </li>
-                <li class="card-list--item">
-                 WWord meaning, pronunciation, synonyms,           hypernyms, hyponyms  . and more.
+                <li class="card-list__item">Highlight one word in the text on the page.</li>
+                <li class="card-list__item">
+                  WWord meaning, pronunciation, synonyms, hypernyms, hyponyms . and more.
                 </li>
               </ul>
             </div>
-            <img class="for-card--img" src="./assets/images/for/img-3.png" alt="for-employees"></img>
+            <img
+              class="for-card__img"
+              src="./assets/images/for/img-3.png"
+              alt="alt_img"
+            />
           </div>
         </div>
-        <button class="for-content--btn">Request a free trial</button>
+        <button class="for-content__btn">Request a free trial</button>
       </div>
     </section>
     <section class="help">
       <h2 class="help-tite">How can Lingvanex help you?</h2>
       <div class="help-cards">
-        <div class="help-cards--item help-card">
-          <img class="help-card--img" src="./assets/images/help/Frame1.png" alt="frame-1">
-          <h3 class="help-card--title">Book  trips & tickets easily</h3>
-          <p class="help-card--text">We provide cloud, sdk and on-premise translation solutions. All your private data stays with you.</p>
+        <div class="help-cards__item help-card">
+          <img
+            class="help-card__img"
+            src="./assets/images/help/Frame1.png"
+            alt="alt_img"
+          />
+          <h3 class="help-card__title">Book trips & tickets easily</h3>
+          <p class="help-card__text">
+            We provide cloud, sdk and on-premise translation solutions. All your private data stays
+            with you.
+          </p>
         </div>
-        <div class="help-cards--item help-card">
-          <img class="help-card--img" src="./assets/images/help/Frame2-4.png" alt="frame-2">
-          <h3 class="help-card--title">Translate in real time</h3>
-          <p class="help-card--text">The price starts from $100 / month and depends 
-on number of languages.</p>
+        <div class="help-cards__item help-card">
+          <img
+            class="help-card__img"
+            src="./assets/images/help/Frame2-4.png"
+            alt="alt_img"
+          />
+          <h3 class="help-card__title">Translate in real time</h3>
+          <p class="help-card__text">
+            The price starts from $100 / month and depends on number of languages.
+          </p>
         </div>
-        <div class="help-cards--item help-card">
-          <img class="help-card--img" src="./assets/images/help/Frame3.png" alt="frame-3">
-          <h3 class="help-card--title">Translate any hotel services</h3>
-          <p class="help-card--text">Every language model size is 70mb.SDK uses 200mb 
-of RAM memory.</p>
+        <div class="help-cards__item help-card">
+          <img
+            class="help-card__img"
+            src="./assets/images/help/Frame3.png"
+            alt="alt_img"
+          />
+          <h3 class="help-card__title">Translate any hotel services</h3>
+          <p class="help-card__text">
+            Every language model size is 70mb.SDK uses 200mb of RAM memory.
+          </p>
         </div>
-        <div class="help-cards--item help-card">
-          <img class="help-card--img" src="./assets/images/help/Frame2-4.png" alt="frame-4">
-          <h3 class="help-card--title">Сommunicate easily</h3>
-          <p class="help-card--text">We provide cloud, sdk and on-premise translation solutions. All your private data stays with you.</p>
+        <div class="help-cards__item help-card">
+          <img
+            class="help-card__img"
+            src="./assets/images/help/Frame2-4.png"
+            alt="alt_img"
+          />
+          <h3 class="help-card__title">Сommunicate easily</h3>
+          <p class="help-card__text">
+            We provide cloud, sdk and on-premise translation solutions. All your private data stays
+            with you.
+          </p>
         </div>
-        <div class="help-cards--item help-card">
-          <img class="help-card--img" src="./assets/images/help/Frame5.png" alt="frame-5">
-          <h3 class="help-card--title">Knowledge bases for employees</h3>
-          <p class="help-card--text">The price starts from 
-$100 / month and depends on number of languages.</p>
+        <div class="help-cards__item help-card">
+          <img
+            class="help-card__img"
+            src="./assets/images/help/Frame5.png"
+            alt="alt_img"
+          />
+          <h3 class="help-card__title">Knowledge bases for employees</h3>
+          <p class="help-card__text">
+            The price starts from $100 / month and depends on number of languages.
+          </p>
         </div>
-        <div class="help-cards--item help-card">
-          <img class="help-card--img" src="./assets/images/help/Frame6.png" alt="frame-6">
-          <h3 class="help-card--title">Website  & promo translation</h3>
-          <p class="help-card--text">SDK has trial project and manual.Dependency managers 
-are supported.</p>
+        <div class="help-cards__item help-card">
+          <img
+            class="help-card__img"
+            src="./assets/images/help/Frame6.png"
+            alt="alt_img"
+          />
+          <h3 class="help-card__title">Website & promo translation</h3>
+          <p class="help-card__text">
+            SDK has trial project and manual.Dependency managers are supported.
+          </p>
         </div>
       </div>
       <button class="help-btn">Request a free trial</button>

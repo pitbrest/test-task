@@ -1,6 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25.2px;
+  letter-spacing: -0.01em;
+  text-align: center;
 }
 section {
   width: 100%;
@@ -13,4 +23,110 @@ h1 {
   line-height: 70px;
   letter-spacing: -0.05em;
   text-align: center;
+}
+h2 {
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: -0.05em;
+  text-align: center;
+}
+h3 {
+  font-size: 34px;
+  font-weight: 900;
+  line-height: 34px;
+  letter-spacing: -0.03em;
+  text-align: center;
+}
+
+button {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  padding: 18px 93.5px;
+  border-radius: 12px;
+  color: white;
+  background-color: #0146fe;
+  margin-bottom: 80px;
+}
+img {
+  overflow: clip;
+  overflow-clip-margin: content-box;
+}
+
+/* main */
+
+.travel-title {
+  margin: 161px 0 23px 0;
+}
+.travel-description {
+  font-family: "Manrope";
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25.2px;
+  color: #2a2b2f;
+  margin-bottom: 40px;
+}
+.languages-title {
+  margin: 64px 0 24px 0;
+}
+.languages-description {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25.2px;
+  letter-spacing: -0.01em;
+  text-align: center;
+  margin-bottom: 70px;
+}
+.languages-cards {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 213px;
+}
+.languages-card {
+  width: 400px;
+  height: 422px;
+  padding: 23px 16px 16px 16px;
+  border: 2px solid #0000000a;
+  border-radius: 32px;
+}
+.languages-card__title {
+  margin-bottom: 12px;
+}
+.languages-content {
+  margin-bottom: 49px;
+}
+.languages-card__img {
+  width: 368px;
+  height: 245px;
+  margin-top: 15px;
+}
+.card-img__1 {
+  padding: 33px 17.85px 51px 7px;
+}
+.card-img__2 {
+  padding: 25.7px 51.3px 55.1px 27.3px;
+}
+.card-img__3 {
+  padding: 42px 0px 73px 0px;
+  margin-left: -2px;
+}
+
+/* for */
+.for {
+  margin-left: -1px;
+}
+.for-header__title {
+  margin-bottom: 33px;
+}
+.for-header__text {
+  margin-bottom: 64px;
+}
+.for button {
+  padding: 16px 32px;
 }
