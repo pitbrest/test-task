@@ -34,6 +34,7 @@ h3 {
   font-weight: 900;
   line-height: 34px;
   letter-spacing: -0.03em;
+  text-align: center;
 }
 button {
   font-size: 20px;
@@ -53,12 +54,8 @@ img {
   overflow: clip;
   overflow-clip-margin: content-box;
 }
-/* li {
-  list-style-position: inside;
-} */
 
 /* main */
-
 .travel-title {
   margin: 161px 0 23px 0;
 }
@@ -223,5 +220,33 @@ img {
   margin-top: 81px;
 }
 .help-tite {
-  padding-top: 64px;
+  padding: 65px 0 74px 0;
+}
+.help-cards {
+  display: grid;
+  justify-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(3, 295px);
+  column-gap: 16px;
+  row-gap: 55px;
+}
+.help-card {
+  width: 295px;
+  height: 266px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.help-card__img {
+  padding-bottom: 24px;
+}
+.help-card__title {
+  padding-bottom: 14px;
+}
+.help-card__text {
+  padding: 0 5px;
+}
+.help-btn {
+  margin: 66px 0 40px;
 }
